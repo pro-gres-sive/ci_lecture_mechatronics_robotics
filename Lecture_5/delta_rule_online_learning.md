@@ -7,7 +7,7 @@ Tasks:
 2. Visualize the data using pandas.plot() (https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html) or plt.plot() (https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
 3. Divide the data into a training set and into a test set, then create np.arrays for the x and y columns of each data set
 4. Initialize the weights of the percepton randomly in a range between -0.2 and 0.2
-5. Implement the net_process function, calculating the weighted sum of it's inputs + bias. Use the predict function to examine the output of the untrained network. 
+5. Implement the net_process function, calculating the weighted input + bias. Use the predict function to examine the output of the untrained network. 
 6. Implement the fit function of the network by making use of the delta rule in it's sequential form (online training).
 7. Display meaningful metrics as an print output in every epoch and use the fit function to train on the training data (hint: since we use online training, a very low learning rate might be needed)
 8. Collect the chosen metric data while training and return it as an output of the fit function. Visualize those metrics.
@@ -49,8 +49,5 @@ class Perceptron_sequential():
         
     
     #def fit(self, X_train, Y_train, X_val, Y_val, epochs, lrate):
-        #?
-            
-                
-                
+        #?       
 ```
